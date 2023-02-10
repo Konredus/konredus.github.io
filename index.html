@@ -1,62 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Mi portfolio</title>
-  </head>
-  <body>
-    <header class="header">
-      <h1>Bienvenido a mi portfolio</h1>
-      <div id="language-buttons">
-        <button id="btn-es">ES</button>
-        <button id="btn-en">EN</button>
-      </div>
-    </header>
-    <div class="container">
-      <section class="section">
-        <h2>Proyecto 1</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
-          malesuada est, eu commodo quam euismod at.
-        </p>
-        <a class="btn" href="#">Ver más</a>
-      </section>
-      <section class="section">
-        <h2>Proyecto 2</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
-          malesuada est, eu commodo quam euismod at.
-        </p>
-        <a class="btn" href="#">Ver más</a>
-      </section>
-      <section class="section">
-        <h2>Proyecto 3</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
-          malesuada est, eu commodo quam euismod at.
-        </p>
-        <a class="btn" href="#">Ver más</a>
-      </section>
-      <section class="section">
-        <h2>Sobre mi</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor
-          malesuada est, eu commodo quam euismod at.
-        </p>
-      </section>
-      <section class="section">
-        <h2>Contactame</h2>
-        <form action="#">
-          <input type="text" placeholder="Nombre" />
-          <input type="email" placeholder="Email" />
-          <textarea placeholder="Mensaje"></textarea>
-          <button class="btn">Enviar</button>
-        </form>
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <div class="header">
+    <h1>Bienvenido a mi Portfolio</h1>
+    <div class="language-switcher">
+      <button id="btn-es">ES</button>
+      <button id="btn-en">EN</button>
     </div>
-    <script src="script.js"></script>
-  </body>
-</
+  </div>
+
+  <div class="container">
+    <div class="section" id="about-me">
+      <h2>Sobre mi</h2>
+      <p>Soy un desarrollador web apasionado por crear soluciones atractivas y eficientes. Con experiencia en HTML, CSS y JavaScript, siempre estoy en busca de nuevos desafíos y oportunidades para crecer profesionalmente. Me encanta trabajar en equipo y colaborar con otros para crear proyectos impresionantes.</p>
+    </div>
+
+    <div class="section">
+      <h2>Mis Proyectos</h2>
+      <div class="project">
+        <h3>Proyecto 1</h3>
+        <p>Descripción del proyecto 1</p>
+        <a href="#" class="btn">Ver detalles</a>
+      </div>
+      <div class="project">
+        <h3>Proyecto 2</h3>
+        <p>Descripción del proyecto 2</p>
+        <a href="#" class="btn">Ver detalles</a>
+      </div>
+      <div class="project">
+        <h3>Proyecto 3</h3>
+        <p>Descripción del proyecto 3</p>
+        <a href="#" class="btn">Ver detalles</a>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>Contactame</h2>
+      <form>
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Correo electrónico">
+        <textarea placeholder="Mensaje"></textarea>
+        <button class="btn">Enviar</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
