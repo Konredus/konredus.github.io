@@ -16,6 +16,38 @@
     h1 {
       color: white;
     }
+    .timeline {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+      margin: 50px 0;
+    }
+    .timeline h2 {
+      color: lightblue;
+    }
+    .timeline ul {
+      list-style: none;
+      padding: 0;
+    }
+    .timeline li {
+      display: flex;
+      align-items: flex-end;
+      margin: 50px 0;
+    }
+    .timeline .year {
+      background-color: lightblue;
+      color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+    }
+    .timeline p {
+      width: 60%;
+    }
     .projects {
       display: flex;
       justify-content: space-around;
@@ -51,8 +83,29 @@
   <header>
     <img src="header.jpg" alt="Header image">
     <h1>Sobre mi</h1>
-    <p>Mi nombre es Konredus y soy un analista de datos recién graduado del curso "Data Analytics de Google".</p>
   </header>
+  <section class="timeline">
+    <h2>Roadmap</h2>
+    <ul>
+      <li>
+        <div class="year">2015</div>
+        <p>Comienzo de mi carrera como desarrollador web</p>
+      </li>
+      <li>
+        <div class="year">2017</div>
+        <p>Me uno a una startup como CTO</p>
+      </li>
+      <li>
+        <div class="year">2019</div>
+        <p>Comienzo mi formación en análisis de datos y me recibo en el curso de "Data Analytics de Google"</p>
+</li>
+<li>
+<div class="year">2021</div>
+<p>Comienzo a trabajar como Analista de Datos</p>
+</li>
+</ul>
+
+  </section>
   <section class="projects">
     <div class="project">
       <h2>Proyecto 1</h2>
@@ -67,12 +120,12 @@
   </section>
   <section class="contact">
     <h2>Contacto</h2>
-    <form action="#">
-      <input type="text" placeholder="Nombre">
-      <input type="email" placeholder="Correo electrónico">
-      <textarea placeholder="Mensaje"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
+    <p>Puedes encontrarme en:</p>
+    <p>
+      <a href="https://linkedin.com/in/konredus">LinkedIn</a> |
+      <a href="mailto:konredus@email.com">Correo electrónico</a> |
+      <a href="https://instagram.com/konredus">Instagram</a>
+    </p>
   </section>
 </body>
 </html>
