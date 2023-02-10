@@ -2,109 +2,82 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio de Konredus</title>
   <style>
-    /* Estilos para la página */
-    body {
-      background-color: lightblue;
-      font-family: Arial, sans-serif;
-    }
-    header {
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: white;
-    }
-    .timeline {
-      background-color: white;
-      padding: 20px;
-      text-align: center;
-      margin: 50px 0;
-    }
-    .timeline h2 {
-      color: lightblue;
-    }
-    .timeline ul {
-      list-style: none;
+    * {
+      box-sizing: border-box;
+      margin: 0;
       padding: 0;
     }
-    .timeline li {
-      display: flex;
-      align-items: flex-end;
-      margin: 50px 0;
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
     }
-    .timeline .year {
-      background-color: lightblue;
-      color: white;
-      width: 50px;
-      height: 50px;
-      border-radius: 25px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 20px;
-    }
-    .timeline p {
-      width: 60%;
-    }
-    .projects {
-      display: flex;
-      justify-content: space-around;
-      margin: 50px 0;
-    }
-    .project {
-      background-color: white;
-      padding: 20px;
+
+    header {
+      background-color: #3498DB;
+      padding: 50px;
       text-align: center;
-      width: 30%;
     }
-    .project h2 {
-      color: lightblue;
+
+    header img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 20px;
     }
-    .project button {
-      background-color: lightblue;
-      color: white;
-      border: none;
-      padding: 10px 20px;
+
+    header h1 {
+      color: #FFF;
+      font-size: 36px;
+      margin-bottom: 20px;
     }
-    .contact {
-      background-color: white;
-      padding: 20px;
+
+    section.about {
+      padding: 50px;
       text-align: center;
-      margin: 50px 0;
     }
-    .contact h2 {
-      color: lightblue;
-    }
-  </style>
+
+    section.about h2 {
+font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+    
+    </style>
 </head>
 <body>
   <header>
-    <img src="header.jpg" alt="Header image">
-    <h1>Sobre mi</h1>
+    <img src="https://via.placeholder.com/100x100" alt="Foto de perfil de Konredus">
+    <h1>Konredus</h1>
+    <p>Analista de Datos</p>
   </header>
-  <section class="timeline">
-    <h2>Roadmap</h2>
-    <ul>
-      <li>
-        <div class="year">2015</div>
-        <p>Comienzo de mi carrera como desarrollador web</p>
-      </li>
-      <li>
-        <div class="year">2017</div>
-        <p>Me uno a una startup como CTO</p>
-      </li>
-      <li>
-        <div class="year">2019</div>
-        <p>Comienzo mi formación en análisis de datos y me recibo en el curso de "Data Analytics de Google"</p>
-</li>
-<li>
-<div class="year">2021</div>
-<p>Comienzo a trabajar como Analista de Datos</p>
-</li>
-</ul>
-
+  <section class="about">
+    <h2>Sobre Mi</h2>
+    <table>
+      <tr>
+        <th>Año</th>
+        <th>Evento</th>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>Comienzo mis estudios en Análisis de Datos</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td>Me recibo en el curso de "Data Analytics de Google"</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>Comienzo a trabajar como Analista de Datos</td>
+      </tr>
+    </table>
   </section>
   <section class="projects">
     <div class="project">
@@ -119,11 +92,64 @@
     </div>
   </section>
   <section class="contact">
-    <h2>Contacto</h2>
-    <p>Puedes encontrarme en:</p>
+    <h2>Contacto
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #3498DB;
+  color: #FFF;
+}
+
+section.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+.project {
+  width: 300px;
+  background-color: #EAEAEA;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+
+.project h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498DB;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+section.contact {
+  background-color: #3498DB;
+  color: #FFF;
+  padding: 50px;
+  text-align: center;
+}
+
+section.contact a {
+  color: #FFF;
+  text-decoration: none;
+}
+      
+      </h2>
+    <p>Puedes contactarme a través de:</p>
     <p>
-      <a href="https://linkedin.com/in/konredus">LinkedIn</a> |
-      <a href="mailto:konredus@email.com">Correo electrónico</a> |
+      <a href="https://linkedin.com/in/konredus">LinkedIn</a><br>
+      <a href="mailto:konredus@gmail.com">konredus@gmail.com</a><br>
       <a href="https://instagram.com/konredus">Instagram</a>
     </p>
   </section>
