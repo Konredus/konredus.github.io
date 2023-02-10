@@ -1,55 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio</title>
-</head>
-<body>
-  <div class="header">
-    <h1>Bienvenido a mi Portfolio</h1>
-    <div class="language-switcher">
-      <button id="btn-es">ES</button>
-      <button id="btn-en">EN</button>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Mi página web</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h1 {
+        text-align: center;
+      }
+      
+      .header {
+        background-image: url('https://unsplash.it/800/300');
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .header h1 {
+        color: white;
+        text-shadow: 1px 1px 3px black;
+        margin: 0;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: left;
+      }
+      
+      .section {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: lightgray;
+      }
+      
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px 0;
+        background-color: blue;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: all 0.2s ease-in-out;
+      }
+      
+      .btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.35);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Bienvenido a mi página web</h1>
+    </header>
+    <div class="container">
+      <section class="section">
+        <h2>Sección 1</h2>
+        <p>Contenido de la sección 1</p>
+        <a href="#" class="btn">Leer más</a>
+      </section>
+      <section class="section">
+        <h2>Sección 2</h2>
+        <p>Contenido de la sección 2</p>
+        <a href="#" class="btn">Leer más</a>
+      </section>
+      <section class="section">
+        <h2>Sección 3</h2>
+        <p>Contenido de la sección 3</p>
+        <a href="#" class="btn">Leer más</a>
+      </section>
     </div>
-  </div>
-
-  <div class="container">
-    <div class="section" id="about-me">
-      <h2>Sobre mi</h2>
-      <p>Soy un desarrollador web apasionado por crear soluciones atractivas y eficientes. Con experiencia en HTML, CSS y JavaScript, siempre estoy en busca de nuevos desafíos y oportunidades para crecer profesionalmente. Me encanta trabajar en equipo y colaborar con otros para crear proyectos impresionantes.</p>
-    </div>
-
-    <div class="section">
-      <h2>Mis Proyectos</h2>
-      <div class="project">
-        <h3>Proyecto 1</h3>
-        <p>Descripción del proyecto 1</p>
-        <a href="#" class="btn">Ver detalles</a>
-      </div>
-      <div class="project">
-        <h3>Proyecto 2</h3>
-        <p>Descripción del proyecto 2</p>
-        <a href="#" class="btn">Ver detalles</a>
-      </div>
-      <div class="project">
-        <h3>Proyecto 3</h3>
-        <p>Descripción del proyecto 3</p>
-        <a href="#" class="btn">Ver detalles</a>
-      </div>
-    </div>
-
-    <div class="section" id="contact">
-      <h2>Contactame</h2>
-      <form>
-        <input type="text" placeholder="Nombre">
-        <input type="email" placeholder="Correo electrónico">
-        <textarea placeholder="Mensaje"></textarea>
-        <button class="btn">Enviar</button>
-      </form>
-    </div>
-  </div>
-  <script src="script.js"></script>
-</body>
+  </body>
 </html>
