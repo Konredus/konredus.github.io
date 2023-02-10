@@ -49,8 +49,7 @@ document.querySelector('#email').textContent = texts[language].email;
 document.querySelector('#twitter').textContent = texts[language].twitter;
 
 document.querySelector('#switch-to-es').addEventListener('click', function() {
-  document.querySelector('#welcome-message').textContent = texts.
-es.welcomeMessage;
+document.querySelector('#welcome-message').textContent = texts.es.welcomeMessage;
 document.querySelector('#about-me').textContent = texts.es.aboutMe;
 document.querySelector('#about-me-description').textContent = texts.es.aboutMeDescription;
 document.querySelector('#my-projects').textContent = texts.es.myProjects;
