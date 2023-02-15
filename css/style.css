@@ -306,6 +306,39 @@ h3 {
   overflow: hidden;
 }
 
+.skills-container {
+  margin-top: 8rem;
+  margin-left: 2em;
+  margin-right: 2em;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillpill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border: 0.125rem solid var(--text-color);
+  border-radius: 50px;
+  font-size: 14px;
+  color: var(--text-color);
+  transition: background-color 0.3s ease;
+}
+
+.skillpill i {
+  margin-right: 5px;
+}
+
+.skillpill:hover {
+  background-color: #f0f0f0;
+}
+
 @media screen and (min-width: 700px) {
   #navbar-toggle,
   #navbar-toggle[aria-expanded="true"] {
@@ -361,4 +394,9 @@ h3 {
 
 }
 
+.skills-container {
+  margin-left: 8em;
+  margin-right: 8em;
+  max-width: 800px;
+}
 }
