@@ -9,6 +9,7 @@
   --navbar-text-color: hsl(0, 0%, 85%);
   --navbar-text-color-focus: white;
   --navbar-bg-contrast: rgba(255, 255, 255, 0.95);
+  --shadows: black;
 }
 
 body {
@@ -111,12 +112,15 @@ body.day-background {
 }
 
 .resume-li {
-  padding: 0.4em 0.8em;
+  padding: 0.4em 1em;
 }
 
 .resume-link {
   border: none;
   transition: all 0.3s ease-in-out 0s;
+  font-size: 16px;
+  font-weight: 1000;
+
 }
 
 .resume-link:is(:focus, :hover) {
@@ -262,7 +266,6 @@ h3 {
 }
 
 .aboutme-container {
-  max-width: 500px;
 }
 
 .aboutme-text {
@@ -275,7 +278,7 @@ h3 {
   margin-left: 1rem;
   margin-right: 1rem;
   display: flex;
-  align-content: center;
+  align-content:start;
   justify-content: center;
   height: 100%;
 }
@@ -314,6 +317,7 @@ h3 {
   width: 60%;
   padding: 1rem;
   padding-left: 3rem;
+  padding-right: 6rem;
   text-align: left;
 }
 
@@ -393,7 +397,7 @@ h3 {
 }
 
 .project-title {
-  font-size: 20px;
+  font-size: 28px;
   margin-bottom: 10px;
 }
 
@@ -423,14 +427,13 @@ h3 {
 }
 
 .myjourney-container p {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   font-size: 18px;
 
 }
 
 .project-image {
   border-radius: 20px;
+  box-shadow: 0 0 10px var(--shadows);
 
 }
 
@@ -443,6 +446,7 @@ h3 {
   font-size: 20px;
   color: var(--text-color);
   text-decoration: none;
+  max-width: 300px;
 }
 
 .project-link:hover {
@@ -460,6 +464,15 @@ h3 {
   width: 100%;
 
 }
+
+@media screen and (max-width: 1200px) {
+  .timeline-container {
+    display: none;
+  }
+
+ 
+}
+
 
 @media screen and (min-width: 700px) {
   #navbar-toggle,
@@ -493,7 +506,6 @@ h3 {
   }
 
   .aboutme-container {
-    max-width: 600px;
   }
 
   .timeline-container {
@@ -502,7 +514,7 @@ h3 {
   }
   .resume-link {
     border-radius: 1rem;
-    border: 0.125rem solid var(--text-color);
+    border: 1px solid var(--text-color);
     transition: all 0.3s ease-in-out 0s;
   }
 
