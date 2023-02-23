@@ -528,17 +528,19 @@ h3 {
     margin-right: 8rem;
     max-width: 800px;
   }*/
+
+/*nuevoooo 2*/
 .skills-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: nowrap; /* Cambio de wrap a nowrap */
+  justify-content: center; /* Añadido para centrar horizontalmente */
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
 }
 
 .skills-container > div {
-  flex-basis: calc(50% - 10px);
+  flex-basis: calc(33.33% - 10px); /* Cambio de 50% a 33.33% para mostrar 3 skills por fila */
   margin-bottom: 20px;
 }
 
@@ -548,4 +550,3 @@ h3 {
   }
 }
 
-}
