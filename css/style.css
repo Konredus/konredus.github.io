@@ -534,8 +534,8 @@ h3 {
   display: flex;
   flex-wrap: nowrap; /* Cambio de wrap a nowrap */
   justify-content: center; /* Añadido para centrar horizontalmente */
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 8rem;
+    margin-right: 8rem;
   max-width: 800px;
 }
 
