@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Konrad Peschka</title>
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/toggleSwitch.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
   </head>
 
-  <body class="day-background">
+  <body>
     <header id="navbar">
       <nav class="navbar-container container">
         <a href="/" class="home-link"> Konredus </a>
@@ -32,17 +31,23 @@
           <ul class="navbar-links">
             <li class="navbar-item">
               <a class="navbar-link" href="/#about"
-                ><span class="navbar-link-text">About me</span></a
+                ><span id="nav-btn-about" lang class="navbar-link-text"
+                  >About me</span
+                ></a
               >
             </li>
             <li class="navbar-item">
               <a class="navbar-link" href="/#Projects"
-                ><span class="navbar-link-text">Projects</span></a
+                ><span id="nav-btn-projects" lang class="navbar-link-text"
+                  >Projects</span
+                ></a
               >
             </li>
             <li class="navbar-item">
               <a class="navbar-link" href="/#Connect"
-                ><span class="navbar-link-text">Connect</span></a
+                ><span id="nav-btn-connect" lang class="navbar-link-text"
+                  >Connect</span
+                ></a
               >
             </li>
             <li class="navbar-item resume-li">
@@ -67,6 +72,9 @@
                 ></i>
               </button>
             </li>
+            <li class="navbar-item">
+              <button class="nav-button" id="switchLang">ENG</button>
+            </li>
           </ul>
         </div>
       </nav>
@@ -85,20 +93,23 @@
           </div>
         </div>
         <div class="headers-container color-celeste">
-          <h1 class="presentation-titles">
-            Hi! <i id="nav-button-icon" class="bx bxs-hand bx-lg bx-tada"></i>
+          <h1 id="presentation-h1-hi" lang class="presentation-titles">
+            Hi! <i class="bx bxs-hand bx-lg"></i>
           </h1>
-          <h2 class="presentation-titles">I'm Konrad</h2>
-          <h3 class="presentation-titles">Business & Data Analyst</h3>
+          <h2 id="presentation-h2-name" lang class="presentation-titles">
+            I'm Konrad
+          </h2>
+          <h3 id="presentation-h3-business" lang class="presentation-titles">
+            Business & Data Analyst
+          </h3>
         </div>
       </div>
 
       <div class="aboutme-container">
-        <h3 id="about" class="color-celeste">
-          <i id="nav-button-icon" class="bx bxs-hand-right bx-md"></i> A little
-          about me
+        <h3 id="about" lang class="color-celeste">
+          <i class="bx bxs-hand-right bx-md"></i> A little about me
         </h3>
-        <p class="aboutme-text">
+        <p id="about-text-1" lang class="aboutme-text">
           Hi, I'm Konrad, an electronic engineer with experience in R&D and
           repair of industrial machinery. Over the past 6 years I have created 3
           ventures, one of which was successful, ranging from sales of Arduino
@@ -106,12 +117,12 @@
           robotics and programming, and most recently, online adult education in
           electronics and programming.
         </p>
-        <p class="aboutme-text">
+        <p id="about-text-2" lang class="aboutme-text">
           These experiences have honed my leadership and business skills,
           including metrics tracking, communication, and fundraising, and have
           led me to pursue Business Analytics.
         </p>
-        <p class="aboutme-text">
+        <p id="about-text-3" lang class="aboutme-text">
           After completing Google's Data Analytics course, I'm now studying
           Business Analytics at Coder House, and I'm excited to share my
           insights and help other companies grow with data-driven decisions.
@@ -119,8 +130,8 @@
       </div>
 
       <div class="myjourney-container">
-        <h3 class="color-celeste">
-          <i id="nav-button-icon" class="bx bx-walk"></i>
+        <h3 id="myjourny-title" lang class="color-celeste">
+          <i class="bx bx-walk"></i>
           From Engineer to Business Analytics
         </h3>
 
@@ -275,7 +286,7 @@
           </svg>
         </div>
 
-        <p class="myjourney-text">
+        <p id="myjourney-text-1" lang class="myjourney-text">
           <span class="resaltar">- 2008 -</span> Everyone has a story and this
           is the one that makes the most sense to the 2023 version of me. I
           began my career working in a remote technical support company in
@@ -284,7 +295,7 @@
           development for a telecommunications company, where I honed my skills
           in math, physics, and processes.
         </p>
-        <p class="myjourney-text">
+        <p id="myjourney-text-2" lang class="myjourney-text">
           <span class="resaltar">- 2015 -</span> In the past seven years, I've
           had three different entrepreneurial ventures. The first was a sales
           venture for Arduino supplies, robotics, and educational kits. The
@@ -293,19 +304,19 @@
           training in electronics and programming to adults.
         </p>
 
-        <p class="myjourney-text">
+        <p id="myjourney-text-3" lang class="myjourney-text">
           <span class="resaltar">- 2019 -</span> Through these ventures, I
           learned a great deal about project management, leading a team,
           understanding business metrics, communication, leadership,
           fundraising, marketing, sales, and customer service.
         </p>
 
-        <p class="myjourney-text">
+        <p id="myjourney-text-4" lang class="myjourney-text">
           <span class="resaltar">- 2022 -</span> In the past year, I've been
           humbly repositioning myself to learn more about data, which was one of
           my weaknesses in my previous entrepreneurial ventures.
         </p>
-        <p class="myjourney-text">
+        <p id="myjourney-text-5" lang class="myjourney-text">
           I took a <span class="resaltar">Google data analytics</span> course,
           where I learned to program in R, Python, and various BI tools to
           expedite the visualization, reporting, and decision-making processes
@@ -317,15 +328,14 @@
       </div>
 
       <div class="skills-container-wrapper">
-        <h2 class="color-celeste">
-          <i id="nav-button-icon" class="bx bx-bulb bx-md"></i> Tech and soft
-          Skills
+        <h2 id="skills-title" lang class="color-celeste">
+          <i class="bx bx-bulb bx-md"></i> Soft and Tech Skills
         </h2>
         <div class="skills-container">
           <table class="skills-table">
             <tr>
-              <th class="table-header">Soft</th>
-              <th class="table-header">Tech</th>
+              <th id="soft-skills" lang class="table-header">Soft</th>
+              <th id="tech-skills" lang class="table-header">Tech</th>
             </tr>
             <tr>
               <td>
@@ -439,22 +449,28 @@
       </div>
 
       <div class="projects-container-wrapper">
-        <h2 id="Projects" class="color-celeste">
-          <i id="nav-button-icon" class="bx bx-briefcase bx-md"></i> My Projects
+        <h2 id="projects-title" lang class="color-celeste">
+          <i class="bx bx-briefcase bx-md"></i> My Projects
         </h2>
         <div class="projects-container">
           <div class="project-container-left">
             <div class="project-details">
-              <h3 class="project-title color-celeste">
+              <h3
+                id="project-google-final-title"
+                lang
+                class="project-title color-celeste"
+              >
                 Google Data Analytics Final Project
               </h3>
-              <p class="project-text">
+              <p id="project-google-final-text" lang class="project-text">
                 For my final project, I analyzed data for Cyclistic, a
                 Chicago-based bike sharing company. Using the "R" programming
                 language, I completed the Google Data Analysis Professional
                 Certification.
               </p>
               <a
+                id="project-google-final-btn"
+                lang
                 class="project-link"
                 href="https://github.com/Konredus/Google-Data-Analytics-Capstone-Project-Cyclistic"
                 target="_blank"
@@ -483,10 +499,14 @@
               </div>
             </div>
             <div class="project-details">
-              <h3 class="project-title color-celeste">
+              <h3
+                id="project-people-dashboard-title"
+                lang
+                class="project-title color-celeste"
+              >
                 Dashboard for the people's Department
               </h3>
-              <p class="project-text">
+              <p id="project-people-dashboard-text" lang class="project-text">
                 The human resources team of a company asked me to build a
                 Dashboard for them so they can analyze all the data they have
                 separated in 3 DB taking into account the fields of: number of
@@ -494,6 +514,8 @@
                 and location on the US map.
               </p>
               <a
+                id="project-people-dashboard-btn"
+                lang
                 class="project-link"
                 href="https://acortar.link/8qP4qW"
                 target="_blank"
@@ -504,9 +526,8 @@
         </div>
       </div>
       <div class="social-btn-container">
-        <h3 id="Connect" class="color-celeste">
-          <i id="nav-button-icon" class="bx bx-conversation bx-md"></i> Connect
-          with me
+        <h3 id="connect-title" lang class="color-celeste">
+          <i class="bx bx-conversation bx-md"></i> Connect with me
         </h3>
 
         <button
@@ -530,6 +551,7 @@
         </button>
 
         <button
+        id="my-courses-btn" lang
           class="social-link-btn"
           onclick="window.open('https://linktr.ee/konredus')"
         >
@@ -545,7 +567,7 @@
         </nav>
       </div>
     </footer>
-
-    <script src="js/main.js"></script>
+    <script src="/js/language.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
