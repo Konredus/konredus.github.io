@@ -12,8 +12,8 @@ const lang = {
     es: "Conectar",
   },
   "presentation-h1-hi": {
-    en: 'Hi! <i id="nav-button-icon" class="bx bxs-hand bx-lg"></i>',
-    es: 'Hola! <i id="nav-button-icon" class="bx bxs-hand bx-lg"></i>',
+    en: 'Hi! &nbsp; <img src="/img/icons8-waving-hand-emoji-96.png" alt="hand-hello">',
+    es: 'Hola! &nbsp; <img src="/img/icons8-waving-hand-emoji-96.png" alt="hand-hello">',
   },
   "presentation-h2-name": {
     en: "I'm Konrad",
@@ -24,8 +24,8 @@ const lang = {
     es: "Analista de Negocios y Datos",
   },
   about: {
-    en: '<i id="nav-button-icon" class="bx bxs-hand-right bx-md"></i> A little about me',
-    es: '<i id="nav-button-icon" class="bx bxs-hand-right bx-md"></i> Un poco sobre mi',
+    en: '<img src="/img/icons8-finger-pointing-right-48.png" alt="finger-pointing"> A little about me',
+    es: '<img src="/img/icons8-finger-pointing-right-48.png" alt="finger-pointing"> Un poco sobre mi',
   },
   "about-text-1": {
     en: "Hi, I'm Konrad, an electronic engineer with experience in R&D and repair of industrial machinery. Over the past 6 years I have created 3 ventures, one of which was successful, ranging from sales of Arduino supplies and educational robotics kits, to training students in robotics and programming, and most recently, online adult education in electronics and programming.",
@@ -40,8 +40,8 @@ const lang = {
     es: "Después de completar el curso de Análisis de Datos de Google, actualmente estoy estudiando Análisis de Negocios en Coder House, y estoy emocionado de compartir mis conocimientos y ayudar a otras empresas a crecer con decisiones basadas en datos.",
   },
   "myjourny-title": {
-    en: "<i class='bx bx-walk'></i> From Engineer to Business Analytics",
-    es: "<i class='bx bx-walk'></i> De Ingeniero a Analista de Negocios",
+    en: '<img src="/img/icons8-walking-48.png" alt="person walking"> From Engineer to Business Analytics',
+    es: '<img src="/img/icons8-walking-48.png" alt="person walking"> De Ingeniero a Analista de Negocios',
   },
   "myjourney-text-1": {
     en: '<span class="resaltar">- 2008 -</span> Everyone has a story and this is the one that makes the most sense to the 2023 version of me. I began my career working in a remote technical support company in Argentina for Germany, where I gained experience in troubleshooting and managing networks remotely. After this, I worked in research and development for a telecommunications company, where I honed my skills in math, physics, and processes.',
@@ -64,8 +64,8 @@ const lang = {
     es: "Tomé un curso de <span class='resaltar'>análisis de datos de Google</span>, donde aprendí a programar en R, Python y varias herramientas de BI para agilizar la visualización, presentación de informes y procesos de toma de decisiones basados en datos. Actualmente, estoy estudiando Análisis de Negocios en Coder House y mentorizando tres emprendimientos empresariales. Estoy emocionado de aplicar los conocimientos que he adquirido y colaborar con otras empresas y startups para ayudarlos a crecer con los conocimientos que puedo proporcionar.",
   },
   "skills-title": {
-    en: "<i class='bx bx-bulb bx-md'></i> Soft and Tech Skills",
-    es: "<i class='bx bx-bulb bx-md'></i> Habilidades Blandas y Técnicas.",
+    en: '<img src="/img/icons8-light-on-40.png" alt="light bulb"> Soft and Tech Skills',
+    es: '<img src="/img/icons8-light-on-40.png" alt="light bulb"> Habilidades Blandas y Técnicas.',
   },
   "soft-skills": {
     en: "Soft",
@@ -76,8 +76,8 @@ const lang = {
     es: "Técnicas",
   },
   "projects-title": {
-    en: "<i class='bx bx-briefcase bx-md'></i> My Projects",
-    es: "<i class='bx bx-briefcase bx-md'></i> Mis Proyectos",
+    en: '<img src="/img/icons8-briefcase-48.png" alt="briefcase"> My Projects',
+    es: '<img src="/img/icons8-briefcase-48.png" alt="briefcase"> Mis Proyectos',
   },
   "project-google-final-title": {
     en: "Google Data Analytics Final Project",
@@ -104,15 +104,19 @@ const lang = {
     es: "Probar Tablero",
   },
   "connect-title": {
-    en: "<i class='bx bx-conversation bx-md'></i> Connect with me",
-    es: "<i class='bx bx-conversation bx-md'></i> Conéctate conmigo",
+    en: '<img src="/img/icons8-communication-48.png" alt="bubble"> Connect with me',
+    es: '<img src="/img/icons8-communication-48.png" alt="bubble"> Conéctate conmigo',
   },
   "my-courses-btn": {
     en: '<i class="bx bx-link-external bx-sm social-link-icon"></i>  My Courses',
     es: '<i class="bx bx-link-external bx-sm social-link-icon"></i>  Mis Cursos',
   },
-  "": {
-    en: "",
-    es: "",
+  "nav-btn-resume": {
+    en: "CV EN",
+    es: "CV ES",
+  },
+  "resume-url": {
+    en: "https://github.com/Konredus/konredus.github.io/raw/574d5854359582204264c87621c6cf0174147fb5/CV%20Konrad%20Peschka%202022.pdf",
+    es: "https://github.com/Konredus/konredus.github.io/raw/574d5854359582204264c87621c6cf0174147fb5/CV%20Konrad%20Peschka%202022.pdf",
   },
 };

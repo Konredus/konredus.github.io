@@ -453,12 +453,17 @@ h3 {
 .color-celeste {
   color: var(--resaltar-color);
   text-shadow: 1px 1px 2px #9ea2af;
-
 }
 
 .resaltar {
   color: var(--resaltar-color);
   font-weight: 600;
+}
+
+strong {
+  font-weight: bold;
+  font-weight: 800;
+  color: var(--resaltar-color);
 }
 
 @media screen and (max-width: 1000px) {
@@ -538,7 +543,6 @@ h3 {
     margin: 3px 10px;
     font-size: 20px;
     width: 300px;
-
   }
   .headers-container {
     display: inline-block;
