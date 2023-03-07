@@ -12,8 +12,8 @@ const lang = {
     es: "Conectar",
   },
   "presentation-h1-hi": {
-    en: 'Hi! &nbsp; <img src="/img/icons8-waving-hand-emoji-96.png" alt="hand-hello">',
-    es: 'Hola! &nbsp; <img src="/img/icons8-waving-hand-emoji-96.png" alt="hand-hello">',
+    en: 'Hi! &nbsp; <img src="/img/icons8-waving-hand-medium-light-skin-tone-96.png" alt="hand-hello">',
+    es: 'Hola! &nbsp; <img src="/img/icons8-waving-hand-medium-light-skin-tone-96.png" alt="hand-hello">',
   },
   "presentation-h2-name": {
     en: "I'm Konrad",
@@ -24,8 +24,8 @@ const lang = {
     es: "Analista de Negocios y Datos",
   },
   about: {
-    en: '<img src="/img/icons8-finger-pointing-right-48.png" alt="finger-pointing"> A little about me',
-    es: '<img src="/img/icons8-finger-pointing-right-48.png" alt="finger-pointing"> Un poco sobre mi',
+    en: '<img src="/img/icons8-backhand-index-pointing-right-medium-light-skin-tone-48.png" alt="finger-pointing"> A little about me',
+    es: '<img src="/img/icons8-backhand-index-pointing-right-medium-light-skin-tone-48.png" alt="finger-pointing"> Un poco sobre mi',
   },
   "about-text-1": {
     en: "Hi, I'm Konrad, an electronic engineer with experience in R&D and repair of industrial machinery. Over the past 6 years I have created 3 ventures, one of which was successful, ranging from sales of Arduino supplies and educational robotics kits, to training students in robotics and programming, and most recently, online adult education in electronics and programming.",
@@ -68,12 +68,12 @@ const lang = {
     es: '<img src="/img/icons8-light-on-40.png" alt="light bulb"> Habilidades Blandas y Técnicas.',
   },
   "soft-skills": {
-    en: "Soft",
-    es: "Blandas",
+    en: "<img src='/img/icons8-light-on-40.png' alt='light bulb'> Soft Skills",
+    es: "<img src='/img/icons8-light-on-40.png' alt='light bulb'> Habilidades Blandas",
   },
   "tech-skills": {
-    en: "Tech",
-    es: "Técnicas",
+    en: "<img src='/img/icons8-hammer-and-wrench-48.png' alt='hammer and wrench'> Tech Skills",
+    es: "<img src='/img/icons8-hammer-and-wrench-48.png' alt='hammer and wrench'> Habilidades Técnicas",
   },
   "projects-title": {
     en: '<img src="/img/icons8-briefcase-48.png" alt="briefcase"> My Projects',
