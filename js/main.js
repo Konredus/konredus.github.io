@@ -34,8 +34,8 @@ if (theme) {
 
 function switchTheme() {
   if (theme === "dark") {
-    root.style.setProperty("--background-color", "#11161e");
-    root.style.setProperty("--text-color", "#eaebeb");
+    root.style.setProperty("--background-color", "#212529");
+    root.style.setProperty("--text-color", "#f8f8f2");
     root.style.setProperty(
       "--navbar-resume-btn-bg",
       "rgba(255, 255, 255, 0.2)"
@@ -47,8 +47,8 @@ function switchTheme() {
 
     localStorage.setItem("theme", "dark");
   } else if (theme === "light") {
-    root.style.setProperty("--background-color", "#eaebeb");
-    root.style.setProperty("--text-color", "#11161e");
+    root.style.setProperty("--background-color", "#f8f8f2");
+    root.style.setProperty("--text-color", "#212529");
     root.style.setProperty("--navbar-resume-btn-bg", "rgba(20, 0, 0, 0.1)");
     root.style.setProperty("--navbar-bg-contrast", "rgba(255, 255, 255, 0.95)");
 
