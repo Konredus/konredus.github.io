@@ -8,11 +8,11 @@ let language = localStorage.getItem("language");
 
 if (language) {
   updateText(language);
-  switchLanguageBtn.innerHTML = language === "es" ? "En&nbsp;|&nbsp;<strong><u>Es</u></strong>" : "<strong><u>En</u></strong>&nbsp;|&nbsp;Es";
+  switchLanguageBtn.innerHTML = language === "es" ? "Eng&nbsp;|&nbsp;<strong><u>Esp</u></strong>" : "<strong><u>Eng</u></strong>&nbsp;|&nbsp;Esp";
 } else {
   language = getLanguage();
   updateText(language);
-  switchLanguageBtn.innerHTML = language === "es" ? "En&nbsp;|&nbsp;<strong><u>Es</u></strong>" : "<strong><u>En</u></strong>&nbsp;|&nbsp;Es";
+  switchLanguageBtn.innerHTML = language === "es" ? "Eng&nbsp;|&nbsp;<strong><u>Esp</u></strong>" : "<strong><u>Eng</u></strong>&nbsp;|&nbsp;Esp";
 }
 
 if (theme) {
@@ -64,12 +64,12 @@ switchLanguageBtn.addEventListener("click", function () {
     language = "en";
     updateText(language);
     localStorage.setItem("language", language);
-    switchLanguageBtn.innerHTML = "<strong><u>En</u></strong>&nbsp;|&nbsp;Es";
+    switchLanguageBtn.innerHTML = "<strong><u>Eng</u></strong>&nbsp;|&nbsp;Esp";
   } else {
     language = "es";
     updateText(language);
     localStorage.setItem("language", language);
-    switchLanguageBtn.innerHTML = "En&nbsp;|&nbsp;<strong><u>Es</u></strong>";
+    switchLanguageBtn.innerHTML = "Eng&nbsp;|&nbsp;<strong><u>Esp</u></strong>";
   }
 });
 
