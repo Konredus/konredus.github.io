@@ -116,7 +116,7 @@ const lang = {
     es: "CV ES",
   },
   "resume-url": {
-    en: "https://github.com/Konredus/konredus.github.io/raw/574d5854359582204264c87621c6cf0174147fb5/CV%20Konrad%20Peschka%202022.pdf",
-    es: "https://github.com/Konredus/konredus.github.io/raw/574d5854359582204264c87621c6cf0174147fb5/CV%20Konrad%20Peschka%202022.pdf",
+    en: "https://github.com/Konredus/konredus.github.io/blob/adb06e2f498372aa6b4b384d4d33c7eb529edacc/CV%202023%20-%20Konrad%20Peschka%20-%20ENG.pdf",
+    es: "https://github.com/Konredus/konredus.github.io/blob/adb06e2f498372aa6b4b384d4d33c7eb529edacc/CV%202023%20-%20Konrad%20Peschka%20-%20ESP.pdf",
   },
 };
