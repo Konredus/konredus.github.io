@@ -112,11 +112,11 @@ const lang = {
     es: '<i class="bx bx-link-external bx-sm social-link-icon"></i>  Mis Cursos',
   },
   "nav-btn-resume": {
-    en: "CV EN",
-    es: "CV ES",
+    en: "CV ENG",
+    es: "CV ESP",
   },
   "resume-url": {
-    en: "https://github.com/Konredus/konredus.github.io/blob/adb06e2f498372aa6b4b384d4d33c7eb529edacc/CV%202023%20-%20Konrad%20Peschka%20-%20ENG.pdf",
-    es: "https://github.com/Konredus/konredus.github.io/blob/adb06e2f498372aa6b4b384d4d33c7eb529edacc/CV%202023%20-%20Konrad%20Peschka%20-%20ESP.pdf",
+    en: "https://github.com/Konredus/konredus.github.io/raw/adb06e2f498372aa6b4b384d4d33c7eb529edacc/CV%202023%20-%20Konrad%20Peschka%20-%20ENG.pdf",
+    es: "https://github.com/Konredus/konredus.github.io/raw/adb06e2f498372aa6b4b384d4d33c7eb529edacc/CV%202023%20-%20Konrad%20Peschka%20-%20ESP.pdf",
   },
 };
